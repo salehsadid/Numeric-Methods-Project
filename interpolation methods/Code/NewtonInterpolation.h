@@ -253,7 +253,7 @@ private:
 public:
     FileIO() {}
 
-    bool openInput(const string &filename = "input.txt") {
+    bool openInput(const string &filename = "../Input/input.txt") {
         in.open(filename);
         if (!in.is_open()) {
             cerr << "Cannot open input file\n";
@@ -262,7 +262,7 @@ public:
         return true;
     }
 
-    bool openOutput(const string &filename = "output.txt") {
+    bool openOutput(const string &filename = "../Output/output.txt") {
         out.open(filename);
         if (!out.is_open()) {
             cerr << "Cannot open output file\n";
@@ -300,12 +300,12 @@ void Netwon_Interpolations_method(){
     FileIO fileio;
     
     // Open input file
-    if(!fileio.openInput("input.txt")){
+    if(!fileio.openInput("../Input/input.txt")){
         return ;
     }
     
     // Open output file
-    if(!fileio.openOutput("output.txt")){
+    if(!fileio.openOutput("../Output/output.txt")){
         return ;
     }
     

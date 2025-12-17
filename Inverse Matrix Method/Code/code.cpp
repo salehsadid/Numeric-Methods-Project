@@ -7,8 +7,8 @@
 using namespace std;
 
 int main() {
-    ifstream inputFile("input.txt");
-    ofstream outputFile("output.txt");
+    ifstream inputFile("../Input/input.txt");
+    ofstream outputFile("../Output/output.txt");
 
     if (!inputFile.is_open()) {
         cerr << "Error opening input.txt" << endl;
