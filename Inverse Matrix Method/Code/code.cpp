@@ -2,7 +2,7 @@
 #include <vector>
 #include <iomanip>
 #include <cmath>
-#include <fstream>
+#include <cstdio>
 
 using namespace std;
 
@@ -78,61 +78,50 @@ vector<double> getSolution(const vector<vector<double>> &inv, const vector<doubl
 }
 
 int main(){
-    ifstream inputFile("../Input/input.txt");
-    ofstream outputFile("../Output/output.txt");
-
-    if(!inputFile.is_open()){
-        cerr << "Error opening input.txt" << endl;
-        return 1;
-    }
-    if(!outputFile.is_open()){
-        cerr << "Error opening output.txt" << endl;
-        return 1;
-    }
+    freopen("../Input/input.txt", "r", stdin);
+    freopen("../Output/output.txt", "w", stdout);
 
     int n;
     // Read size of matrix A
-    if(!(inputFile >> n)){
-        outputFile << "Error reading size of matrix." << endl;
+    if(!(cin >> n)){
+        cout << "Error reading size of matrix." << endl;
         return 1;
     }
 
     vector<vector<double>> A(n, vector<double>(n));
-    // Read matrix A elements
-    for(int i = 0; i < n; i++)
-        for(int j = 0; j < n; j++)
-            inputFile >> A[i][j];
-
-    // Read vector b for Ax=b
-    vector<double> b(n);
-    for(int i = 0; i < n; i++) inputFile >> b[i];
-
-    vector<vector<double>> inv;
-
-    if(invMat(A, inv)){
-        outputFile << "Inverse matrix:\n";
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < n; j++)
-                outputFile << fixed << setprecision(5) << inv[i][j] << " ";
-            outputFile << "\n";
+    // Read matrix A
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < n; j++){
+            cin >> A[i][j];
         }
-
-        // Solve Ax = b
-        vector<double> x = getSolution(inv, b);
-
-        outputFile << "\nSolution vector x:\n";
-        for(double v : x)
-            outputFile << fixed << setprecision(5) << v << " ";
-        outputFile << "\n";
-
-    } else {
-        outputFile << "Matrix is singular and cannot be inverted.\n";
     }
 
-    inputFile.close();
-    outputFile.close();
+    // Read vector B
+    vector<double> B(n);
+    for(int i = 0; i < n; i++){
+        cin >> B[i];
+    }
 
-    cout << "Processing complete. Check output.txt for results." << endl;
+    vector<vector<double>> inv(n, vector<double>(n));
+    if(invMat(A, inv)){
+        cout << "Inverse Matrix:" << endl;
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
+                cout << fixed << setprecision(4) << inv[i][j] << "\t";
+            }
+            cout << endl;
+        }
+
+        // Calculate and print solution X
+        vector<double> X = getSolution(inv, B);
+        cout << "\nSolution X:" << endl;
+        for(int i = 0; i < n; i++){
+            cout << "x" << i+1 << " = " << fixed << setprecision(4) << X[i] << endl;
+        }
+
+    } else {
+        cout << "Matrix is singular, inverse does not exist." << endl;
+    }
 
     return 0;
 }
