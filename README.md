@@ -87,36 +87,7 @@ Least square regression methods for fitting curves to experimental data.
 
 ## Project Structure
 ![Tree](RESOURCES/tree.png)
-```
-Numeric Methods Project/
-│
-├── Non - Linear Equations/
-│   ├── BIsection Method/
-│   ├── False Position Method/
-│   ├── Newton Raphson Method/
-│   └── Secant Method/
-│
-├── Linear Equations/
-│   ├── Gauss Ellimination Method/
-│   ├── Gauss Jordan Method/
-│   ├── LU Decomposition Method/
-│   └── Inverse Matrix Method/
-│
-├── Interpolation methods/
-│
-├── Integration/
-│   ├── Simpson's One Third Rule/
-│   └── Simpson's Three Eighth Rule/
-│
-├── Differentiatial Equation/
-│   ├── RK method/
-│   └── Differentiation using Newton's interpolation method/
-│
-└── Curve Fitting - Regression/
-    ├── Linear Equation/
-    ├── Polynomial Equation/
-    └── Transcendental Equation/
-```
+
 
 ---
 
