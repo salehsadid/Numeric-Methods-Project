@@ -1,0 +1,9 @@
+
+=== Backward Difference Table ===
+1.00 
+8.00 7.00 
+27.00 19.00 12.00 
+64.00 37.00 18.00 6.00 
+
+=== Newton Backward Result ===
+f(3.8) = 54.872000
