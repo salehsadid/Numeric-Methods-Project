@@ -1,0 +1,15 @@
+The equation is: f(x) = (1)x^4 + (-3)x^3 + (2)x^2 + (6)x
+
+Error tolerance: 0.0001
+
+Range found: [-1.23607 , -0.736068]
+Range found: [-0.236068 , 0.263932]
+
+Finding Root 1:
+Root 1: -1.000000
+Number of iterations: 36
+
+Finding Root 2:
+Root 2: 0.000000
+Number of iterations: 16
+
