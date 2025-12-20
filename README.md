@@ -29,10 +29,10 @@ Methods for finding roots of equations of the form f(x) = 0.
 
 | Method | Theory | Code | Input | Output |
 |--------|--------|------|-------|--------|
-| **Bisection Method** | [View](#bisection-method) | [View](#code-4) | [View](#input-output-example-4) | [View](#input-4) |
-| **False Position Method** | [View](#false-position-method-regula-falsi) | [View](#code-5) | [View](#input-output-example-5) | [View](#input-5) |
-| **Newton Raphson Method** | [View](#newton-raphson-method) | [View](#code-6) | [View](#input-output-example-6) | [View](#input-6) |
-| **Secant Method** | [View](#secant-method) | [View](#code-8) | [View](#input-output-example-7) | [View](#input-7) |
+| **Bisection Method** | [View](#bisection-method) | [View](#code-4) | [View](#input-output-example-4) | [View](#output-4) |
+| **False Position Method** | [View](#false-position-method-regula-falsi) | [View](#code-5) | [View](#input-output-example-5) | [View](#output-5) |
+| **Newton Raphson Method** | [View](#newton-raphson-method) | [View](#code-6) | [View](#input-output-example-6) | [View](#output-6) |
+| **Secant Method** | [View](#secant-method) | [View](#code-8) | [View](#input-output-example-7) | [View](#output-7) |
 
 ---
 
@@ -44,8 +44,8 @@ Methods for solving systems of linear equations (AX = B).
 |--------|--------|------|-------|--------|
 | **Gauss Elimination Method** | [View](#gauss-elimination-method) | [View](#code) | [View](#input-output-example) | [View](#output) |
 | **Gauss Jordan Method** | [View](#gauss-jordan-method) | [View](#code-1) | [View](#input-output-example-1) | [View](#output-1) |
-| **LU Decomposition Method** | [View](#lu-decomposition-method) | [View](#code-3) | [View](#input-output-example-3) | [View](#input-3) |
-| **Inverse Matrix Method** | [View](#inverse-matrix-method) | [View](#code-2) | [View](#input-output-example-2) | [View](#input-2) |
+| **LU Decomposition Method** | [View](#lu-decomposition-method) | [View](#code-3) | [View](#input-output-example-3) | [View](#output-3) |
+| **Inverse Matrix Method** | [View](#inverse-matrix-method) | [View](#code-2) | [View](#input-output-example-2) | [View](#output-2) |
 
 ---
 
@@ -55,8 +55,8 @@ Methods for estimating values between known data points.
 
 | Method | Theory | Code | Input | Output |
 |--------|--------|------|-------|--------|
-| **Newton's Forward & Backward Interpolation** | [View](#newtons-interpolation-methods) | [View](#code-13) | [View](#input-output-example-12) | [View](#input-12) |
-| **Differentiation using Newton's Interpolation** | [View](#numerical-differentiation-using-newtons-interpolation-method) | [View](#code-12) | [View](#input-output-example-11) | [View](#input-11) |
+| **Newton's Forward & Backward Interpolation** | [View](#newtons-interpolation-methods) | [View](#code-13) | [View](#input-output-example-12) | [View](#output-12) |
+| **Differentiation using Newton's Interpolation** | [View](#numerical-differentiation-using-newtons-interpolation-method) | [View](#code-12) | [View](#input-output-example-11) | [View](#output-11) |
 
 ---
 
@@ -66,8 +66,8 @@ Numerical methods for finding definite integrals.
 
 | Method | Theory | Code | Input | Output |
 |--------|--------|------|-------|--------|
-| **Simpson's 1/3 Rule** | [View](#simpsons-13ʳᵈ-rule) | [View](#code-10) | [View](#input-output-example-9) | [View](#input-9) |
-| **Simpson's 3/8 Rule** | [View](#simpsons-38ᵗʰ-rule) | [View](#code-11) | [View](#input-output-example-10) | [View](#input-10) |
+| **Simpson's 1/3 Rule** | [View](#simpsons-13ʳᵈ-rule) | [View](#code-10) | [View](#input-output-example-9) | [View](#output-9) |
+| **Simpson's 3/8 Rule** | [View](#simpsons-38ᵗʰ-rule) | [View](#code-11) | [View](#input-output-example-10) | [View](#output-10) |
 
 ---
 
@@ -77,7 +77,7 @@ Methods for solving ordinary differential equations (ODEs).
 
 | Method | Theory | Code | Input | Output |
 |--------|--------|------|-------|--------|
-| **Runge-Kutta Method (RK4)** | [View](#runge-kutta-method-rk4) | [View](#code-9) | [View](#input-output-example-8) | [View](#input-8) |
+| **Runge-Kutta Method (RK4)** | [View](#runge-kutta-method-rk4) | [View](#code-9) | [View](#input-output-example-8) | [View](#output-8) |
 
 
 ---
@@ -88,9 +88,9 @@ Least square regression methods for fitting curves to experimental data.
 
 | Type | Theory | Code | Input | Output |
 |------|--------|------|-------|--------|
-| **Linear Equation** | [View](#linear-equation-least-square-regression) | [View](#code-14) | [View](#input-output-example-13) | [View](#input-13) |
-| **Polynomial Equation** | [View](#polynomial-equation-least-square-regression) | [View](#code-15) | [View](#input-output-example-14) | [View](#input-14) |
-| **Transcendental Equation** | [View](#transcendental-equation-least-square-regression) | [View](#code-16) | [View](#input-output-example-15) | [View](#input-15) |
+| **Linear Equation** | [View](#linear-equation-least-square-regression) | [View](#code-14) | [View](#input-output-example-13) | [View](#output-13) |
+| **Polynomial Equation** | [View](#polynomial-equation-least-square-regression) | [View](#code-15) | [View](#input-output-example-14) | [View](#output-14) |
+| **Transcendental Equation** | [View](#transcendental-equation-least-square-regression) | [View](#code-16) | [View](#input-output-example-15) | [View](#output-15) |
 
 ---
 
