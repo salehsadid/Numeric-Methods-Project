@@ -47,7 +47,8 @@ Methods for estimating values between known data points.
 
 | Method | Theory | Code | Input | Output |
 |--------|--------|------|-------|--------|
-| **Newton's Forward & Backward Interpolation** | [View](Interpolation%20methods/README.md#theory) | [View](Interpolation%20methods/Code/code.cpp) | [View](Interpolation%20methods/Input/input.txt) | [View](Interpolation%20methods/Output/output.txt) |
+| **Newton's Forward & Backward Interpolation** | [View](Interpolation%20methods/Newton's%20Interpolation/README.md#theory) | [View](Interpolation%20methods/Newton's%20Interpolation/Code/code.cpp) | [View](Interpolation%20methods/Newton's%20Interpolation/Input/input.txt) | [View](Interpolation%20methods/Newton's%20Interpolation/Output/output.txt) |
+| **Differentiation using Newton's Interpolation** | [View](Interpolation%20methods/Differentiation%20using%20Newton's%20interpolation%20method/README.md#theory) | [View](Interpolation%20methods/Differentiation%20using%20Newton's%20interpolation%20method/Code/code.cpp) | [View](Interpolation%20methods/Differentiation%20using%20Newton's%20interpolation%20method/Input/input.txt) | [View](Interpolation%20methods/Differentiation%20using%20Newton's%20interpolation%20method/Output/output.txt) |
 
 ---
 
@@ -69,7 +70,7 @@ Methods for solving ordinary differential equations (ODEs).
 | Method | Theory | Code | Input | Output |
 |--------|--------|------|-------|--------|
 | **Runge-Kutta Method (RK4)** | [View](Differentiatial%20Equation/RK%20method/README.md#theory) | [View](Differentiatial%20Equation/RK%20method/Code/code.cpp) | [View](Differentiatial%20Equation/RK%20method/Input/input.txt) | [View](Differentiatial%20Equation/RK%20method/Output/output.txt) |
-| **Differentiation using Newton's Interpolation** | [View](Differentiatial%20Equation/Differentiation%20using%20Newton's%20interpolation%20method/README.md#theory) | [View](Differentiatial%20Equation/Differentiation%20using%20Newton's%20interpolation%20method/Code/code.cpp) | [View](Differentiatial%20Equation/Differentiation%20using%20Newton's%20interpolation%20method/Input/input.txt) | [View](Differentiatial%20Equation/Differentiation%20using%20Newton's%20interpolation%20method/Output/output.txt) |
+
 
 ---
 
