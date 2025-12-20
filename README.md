@@ -29,10 +29,10 @@ Methods for finding roots of equations of the form f(x) = 0.
 
 | Method | Theory | Code | Input | Output |
 |--------|--------|------|-------|--------|
-| **Bisection Method** | [View](Non%20-%20Linear%20Equations/BIsection%20Method/README.md#theory) | [View](Non%20-%20Linear%20Equations/BIsection%20Method/Code/code.cpp) | [View](Non%20-%20Linear%20Equations/BIsection%20Method/Input/input.txt) | [View](Non%20-%20Linear%20Equations/BIsection%20Method/Output/output.txt) |
-| **False Position Method** | [View](Non%20-%20Linear%20Equations/False%20Position%20Method/README.md#theory) | [View](Non%20-%20Linear%20Equations/False%20Position%20Method/Code/code.cpp) | [View](Non%20-%20Linear%20Equations/False%20Position%20Method/Input/input.txt) | [View](Non%20-%20Linear%20Equations/False%20Position%20Method/Output/output.txt) |
-| **Newton Raphson Method** | [View](Non%20-%20Linear%20Equations/Newton%20Raphson%20Method/README.md#theory) | [View](Non%20-%20Linear%20Equations/Newton%20Raphson%20Method/Code/code.cpp) | [View](Non%20-%20Linear%20Equations/Newton%20Raphson%20Method/Input/input.txt) | [View](Non%20-%20Linear%20Equations/Newton%20Raphson%20Method/Output/output.txt) |
-| **Secant Method** | [View](Non%20-%20Linear%20Equations/Secant%20Method/README.md#theory) | [View](Non%20-%20Linear%20Equations/Secant%20Method/Code/code.cpp) | [View](Non%20-%20Linear%20Equations/Secant%20Method/Input/input.txt) | [View](Non%20-%20Linear%20Equations/Secant%20Method/Output/output.txt) |
+| **Bisection Method** | [View](#bisection-method) | [View](#code) | [View](#input-output-example) | [View](#output) |
+| **False Position Method** | [View](#false-position-method-regula-falsi) | [View](#code-1) | [View](#input-output-example-1) | [View](#output-1) |
+| **Newton Raphson Method** | [View](#newton-raphson-method) | [View](#code-2) | [View](#input-output-example-2) | [View](#output-2) |
+| **Secant Method** | [View](#secant-method) | [View](#code-3) | [View](#input-output-example-3) | [View](#output-3) |
 
 ---
 
@@ -42,10 +42,10 @@ Methods for solving systems of linear equations (AX = B).
 
 | Method | Theory | Code | Input | Output |
 |--------|--------|------|-------|--------|
-| **Gauss Elimination Method** | [View](Linear%20Equations/Gauss%20Ellimination%20Method/README.md#theory) | [View](Linear%20Equations/Gauss%20Ellimination%20Method/Code/code.cpp) | [View](Linear%20Equations/Gauss%20Ellimination%20Method/Input/input.txt) | [View](Linear%20Equations/Gauss%20Ellimination%20Method/Output/output.txt) |
-| **Gauss Jordan Method** | [View](Linear%20Equations/Gauss%20Jordan%20Method/README.md#theory) | [View](Linear%20Equations/Gauss%20Jordan%20Method/Code/code.cpp) | [View](Linear%20Equations/Gauss%20Jordan%20Method/Input/input.txt) | [View](Linear%20Equations/Gauss%20Jordan%20Method/Output/output.txt) |
-| **LU Decomposition Method** | [View](Linear%20Equations/LU%20Decomposition%20Method/README.md#theory) | [View](Linear%20Equations/LU%20Decomposition%20Method/Code/code.cpp) | [View](Linear%20Equations/LU%20Decomposition%20Method/Input/input.txt) | [View](Linear%20Equations/LU%20Decomposition%20Method/Output/output.txt) |
-| **Inverse Matrix Method** | [View](Linear%20Equations/Inverse%20Matrix%20Method/README.md#theory) | [View](Linear%20Equations/Inverse%20Matrix%20Method/Code/code.cpp) | [View](Linear%20Equations/Inverse%20Matrix%20Method/Input/input.txt) | [View](Linear%20Equations/Inverse%20Matrix%20Method/Output/output.txt) |
+| **Gauss Elimination Method** | [View](#gauss-elimination-method) | [View](#code-4) | [View](#input-output-example-4) | [View](#output-4) |
+| **Gauss Jordan Method** | [View](#gauss-jordan-method) | [View](#code-5) | [View](#input-output-example-5) | [View](#output-5) |
+| **LU Decomposition Method** | [View](#lu-decomposition-method) | [View](#code-6) | [View](#input-output-example-6) | [View](#output-6) |
+| **Inverse Matrix Method** | [View](#inverse-matrix-method) | [View](#code-7) | [View](#input-output-example-7) | [View](#output-7) |
 
 ---
 
@@ -55,8 +55,8 @@ Methods for estimating values between known data points.
 
 | Method | Theory | Code | Input | Output |
 |--------|--------|------|-------|--------|
-| **Newton's Forward & Backward Interpolation** | [View](Interpolation%20methods/Newton's%20Interpolation/README.md#theory) | [View](Interpolation%20methods/Newton's%20Interpolation/Code/code.cpp) | [View](Interpolation%20methods/Newton's%20Interpolation/Input/input.txt) | [View](Interpolation%20methods/Newton's%20Interpolation/Output/output.txt) |
-| **Differentiation using Newton's Interpolation** | [View](Interpolation%20methods/Differentiation%20using%20Newton's%20interpolation%20method/README.md#theory) | [View](Interpolation%20methods/Differentiation%20using%20Newton's%20interpolation%20method/Code/code.cpp) | [View](Interpolation%20methods/Differentiation%20using%20Newton's%20interpolation%20method/Input/input.txt) | [View](Interpolation%20methods/Differentiation%20using%20Newton's%20interpolation%20method/Output/output.txt) |
+| **Newton's Forward & Backward Interpolation** | [View](#newtons-interpolation) | [View](#code-8) | [View](#input-output-example-8) | [View](#output-8) |
+| **Differentiation using Newton's Interpolation** | [View](#differentiation-using-newtons-interpolation) | [View](#code-9) | [View](#input-output-example-9) | [View](#output-9) |
 
 ---
 
@@ -66,8 +66,8 @@ Numerical methods for finding definite integrals.
 
 | Method | Theory | Code | Input | Output |
 |--------|--------|------|-------|--------|
-| **Simpson's 1/3 Rule** | [View](Integration/Simpson's%20One%20Third%20Rule/README.md#theory) | [View](Integration/Simpson's%20One%20Third%20Rule/Code/code.cpp) | [View](Integration/Simpson's%20One%20Third%20Rule/Input/input.txt) | [View](Integration/Simpson's%20One%20Third%20Rule/Output/output.txt) |
-| **Simpson's 3/8 Rule** | [View](Integration/Simpson's%20Three%20Eighth%20Rule/README.md#theory) | [View](Integration/Simpson's%20Three%20Eighth%20Rule/Code/code.cpp) | [View](Integration/Simpson's%20Three%20Eighth%20Rule/Input/input.txt) | [View](Integration/Simpson's%20Three%20Eighth%20Rule/Output/output.txt) |
+| **Simpson's 1/3 Rule** | [View](#simpsons-13-rule) | [View](#code-10) | [View](#input-output-example-10) | [View](#output-10) |
+| **Simpson's 3/8 Rule** | [View](#simpsons-38-rule) | [View](#code-11) | [View](#input-output-example-11) | [View](#output-11) |
 
 ---
 
@@ -77,7 +77,7 @@ Methods for solving ordinary differential equations (ODEs).
 
 | Method | Theory | Code | Input | Output |
 |--------|--------|------|-------|--------|
-| **Runge-Kutta Method (RK4)** | [View](Differentiatial%20Equation/RK%20method/README.md#theory) | [View](Differentiatial%20Equation/RK%20method/Code/code.cpp) | [View](Differentiatial%20Equation/RK%20method/Input/input.txt) | [View](Differentiatial%20Equation/RK%20method/Output/output.txt) |
+| **Runge-Kutta Method (RK4)** | [View](#runge-kutta-method-rk4) | [View](#code-12) | [View](#input-output-example-12) | [View](#output-12) |
 
 
 ---
@@ -88,9 +88,9 @@ Least square regression methods for fitting curves to experimental data.
 
 | Type | Theory | Code | Input | Output |
 |------|--------|------|-------|--------|
-| **Linear Equation** | [View](Curve%20Fitting%20-%20Regression/README.md#theory) | [View](Curve%20Fitting%20-%20Regression/Linear%20Equation/Code/code.cpp) | [View](Curve%20Fitting%20-%20Regression/Linear%20Equation/Input/input.txt) | [View](Curve%20Fitting%20-%20Regression/Linear%20Equation/Output/output.txt) |
-| **Polynomial Equation** | [View](Curve%20Fitting%20-%20Regression/README.md#theory-1) | [View](Curve%20Fitting%20-%20Regression/Polynomial%20Equation/Code/code.cpp) | [View](Curve%20Fitting%20-%20Regression/Polynomial%20Equation/Input/input.txt) | [View](Curve%20Fitting%20-%20Regression/Polynomial%20Equation/Output/output.txt) |
-| **Transcendental Equation** | [View](Curve%20Fitting%20-%20Regression/README.md#theory-2) | [View](Curve%20Fitting%20-%20Regression/Transcendental%20Equation/Code/code.cpp) | [View](Curve%20Fitting%20-%20Regression/Transcendental%20Equation/Input/input.txt) | [View](Curve%20Fitting%20-%20Regression/Transcendental%20Equation/Output/output.txt) |
+| **Linear Equation** | [View](#linear-equation-fitting) | [View](#code-13) | [View](#input-output-example-13) | [View](#output-13) |
+| **Polynomial Equation** | [View](#polynomial-equation-fitting) | [View](#code-14) | [View](#input-output-example-14) | [View](#output-14) |
+| **Transcendental Equation** | [View](#transcendental-equation-fitting) | [View](#code-15) | [View](#input-output-example-15) | [View](#output-15) |
 
 ---
 
@@ -1147,7 +1147,7 @@ f(a) × f(b) < 0
 ```
 Then there is at least one real root in the interval between a and b.
 
-![Bisection Method Illustration](../../RESOURCES/Bisection.png)
+![Bisection Method Illustration](RESOURCES/Bisection.png)
 
 ### Algorithm:
 
@@ -1330,7 +1330,7 @@ f(a) × f(b) < 0
 ```
 Then there is at least one real root in the interval between a and b.
 
-![False Position Method Illustration](../../RESOURCES/False%20Position.png)
+![False Position Method Illustration](RESOURCES/False%20Position.png)
 
 ### Algorithm:
 
@@ -1527,7 +1527,7 @@ xₙ₊₁ = xₙ - f(xₙ) / f'(xₙ)
 
 The iteration continues until the difference between two successive values of x becomes sufficiently small.
 
-![Newton-Raphson Method Illustration](../../RESOURCES/Newton%20Raphson.png)
+![Newton-Raphson Method Illustration](RESOURCES/Newton%20Raphson.png)
 
 ### Algorithm:
 
@@ -1710,7 +1710,7 @@ The formula is derived by approximating the derivative:
 f'(xₙ) ≈ [f(xₙ) - f(xₙ₋₁)] / (xₙ - xₙ₋₁)
 ```
 
-![Secant Method Illustration](../../RESOURCES/Secant.png)
+![Secant Method Illustration](RESOURCES/Secant.png)
 
 ### Algorithm:
 
@@ -2194,7 +2194,7 @@ Simpson's 1/3 Rule is part of the Newton-Cotes family of numerical integration f
 ### Classification:
 Simpson's 1/3 Rule is a **closed-form Newton-Cotes formula** (endpoints included) that uses **3 points** to fit a **quadratic polynomial** through equally spaced data points.
 
-![Simpson's 1/3 Rule Illustration](../../RESOURCES/onethird.png)
+![Simpson's 1/3 Rule Illustration](RESOURCES/onethird.png)
 
 ### Key Properties:
 - Uses **3 equally spaced points** (requires even number of intervals)
@@ -2343,7 +2343,7 @@ Simpson's 3/8 Rule is part of the Newton-Cotes family of numerical integration f
 ### Classification:
 Simpson's 3/8 Rule is a **closed-form Newton-Cotes formula** (endpoints included) that uses **4 points** to fit a **cubic polynomial** (third-degree) through equally spaced data points.
 
-![Simpson's 3/8 Rule Illustration](../../RESOURCES/threeeight.png)
+![Simpson's 3/8 Rule Illustration](RESOURCES/threeeight.png)
 
 ### Key Properties:
 - Uses **4 equally spaced points** (requires number of intervals to be a multiple of 3)
@@ -3669,12 +3669,91 @@ y = 45.231 * x^0.823
 
 ---
 
-## Code Constraints
+## Code:
 
-- **Input Format**: Must provide n followed by n pairs of (x, y) values
-- **Logarithm Constraint**: **xᵢ > 0 and yᵢ > 0** (logarithm requires positive values)
-- **Data Points**: **n ≥ 2** (minimum 2 points required)
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
 
-- **File Dependency**: Requires input.txt in **../Input/** directory
-- **Exponential Calculation**: Final step requires computing e^(ln a) to recover coefficient a
-- **Precision**: Results displayed with 6 decimal places
+int main()
+{
+    freopen("../Input/input.txt", "r", stdin);
+    freopen("../Output/output.txt", "w", stdout);
+
+    int n;
+    cin >> n;
+
+    vector<double> x(n), y(n);
+    for (int i = 0; i < n; i++)
+    {
+        cin >> x[i] >> y[i];
+    }
+
+    double Sx = 0, Sy = 0, Sxx = 0, Sxy = 0;
+
+    for (int i = 0; i < n; i++)
+    {
+        double X = x[i];
+        double Y = log(y[i]); // Linearize: ln(y) = ln(a) + bx
+
+        Sx += X;
+        Sy += Y;
+        Sxx += X * X;
+        Sxy += X * Y;
+    }
+
+    // 2x2 system for Y = A + Bx
+    // where A = ln(a), B = b
+    vector<vector<double>> A_mat =
+    {
+        { double(n), Sx },
+        { Sx, Sxx }
+    };
+
+    vector<double> B_vec = { Sy, Sxy };
+
+    int m = 2; // size of matrix
+
+    // Gauss elimination
+    for (int i = 0; i < m; i++)
+    {
+        double pivot = A_mat[i][i];
+        if (fabs(pivot) < 1e-9)
+        {
+            cout << "Singular matrix\n";
+            return 0;
+        }
+
+        // Normalize pivot row
+        for (int j = 0; j < m; j++)
+        {
+            A_mat[i][j] /= pivot;
+        }
+        B_vec[i] /= pivot;
+
+        // Eliminate other rows
+        for (int r = 0; r < m; r++)
+        {
+            if (r == i) continue;
+
+            double factor = A_mat[r][i];
+            for (int c = 0; c < m; c++)
+            {
+                A_mat[r][c] -= factor * A_mat[i][c];
+            }
+            B_vec[r] -= factor * B_vec[i];
+        }
+    }
+
+    double A_val = B_vec[0];
+    double B_val = B_vec[1];
+
+    double a = exp(A_val);
+    double b = B_val;
+
+    cout << fixed << setprecision(6);
+    cout << "y = " << a << "e^" << b << "x\n";
+
+    return 0;
+}
+```
